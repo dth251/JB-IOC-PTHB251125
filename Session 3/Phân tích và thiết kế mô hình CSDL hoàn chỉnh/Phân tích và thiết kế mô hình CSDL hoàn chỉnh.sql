@@ -1,0 +1,4 @@
+-- Các thực thể là : khóa học, giảng viên, học viên, lớp học
+-- cá thuộc tính là : mã, tên, mô tả, học phí,mã, họ tên, chuyên ngành, số điện thoại,mã, họ tên, email, ngày đăng ký,mã lớp, thời gian học, giảng viên phụ trách, khóa học thuộc về
+-- mô tả mối quan hệ giữa các thực thể là :
+-- học viên - khóa học (1- N), khóa học - lớp học(1-n), giảng viên - lớp học ( 1 -N), lớp học - học viên (N - N)

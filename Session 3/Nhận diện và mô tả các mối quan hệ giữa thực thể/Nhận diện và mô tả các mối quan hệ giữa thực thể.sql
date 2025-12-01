@@ -1,0 +1,6 @@
+-- mối quan hệ giữa các thực thể trên là:
+-- Sinh Viên - lớp học phần (N-1), giảng viên - lớp học phần(N - N), lớp học phần - môn học (N-1)
+-- Mô tả ngắn gọn ý nghĩa thực thế:
+-- 1 lớp học phần thì có thể có nhiều sinh viên đăng ký
+-- 1 giảng viên có thể dạy nhiều lớp học phần, 1 lớp học phần thì có thể có nhiều giảng viên
+-- 1 lớp học phần thì có thể có nhiều môn học 

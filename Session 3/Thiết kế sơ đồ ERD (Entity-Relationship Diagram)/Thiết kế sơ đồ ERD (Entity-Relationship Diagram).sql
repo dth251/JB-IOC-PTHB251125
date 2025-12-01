@@ -1,0 +1,5 @@
+-- các thực thể là: khách hàng, sản phẩm, đơn hàng, chi tiết đơn hàng
+-- các thuộc tính là : họ tên, email, số điện thoại, địa chỉ, mã sản phẩm, tên, giá, loại sản phẩm,mã đơn, ngày tạo, tổng tiền,sản phẩm, số lượng, đơn giá
+-- khóa chính : mã khách hàng, mã đơn, mã sản phẩm
+-- khóa ngoại : mã sản phẩm, mã đơn
+-- kiểu quan hệ : khách hàng - đơn hàng(1-N), đơn hàng - sản phẩm (N - N)
